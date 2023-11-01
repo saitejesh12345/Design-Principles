@@ -1,0 +1,30 @@
+Design principles encourage us to create more maintainable, understandable,
+and flexible software. Consequently, as our applications grow in size,
+we can reduce their complexity and save ourselves a lot of headaches further down the road!
+
+The following five concepts make up our SOLID principles:
+
+1.Single Responsibility Principle
+2.Open/Closed Principle
+3.Liskov Substitution Principle
+4.Interface Segregation Principle
+5.Dependency Inversion Principle
+
+########Single Responsibility Principle########:
+
+*class should only have one responsibility. Furthermore, it should only have one reason to change.
+
+How does this principle help us to build better software? Let’s see a few of its benefits:
+->Benefits of Single Responsibility Principle
+->When an application has multiple classes, each of them following this principle,
+then the applicable becomes more maintainable, easier to understand.
+->The code quality of the application is better, thereby having fewer defects.
+->Onboarding new members are easy, and they can start contributing much faster.
+Testing and writing test cases is much simpler.
+
+
+Problem Statement:
+
+Consider a food delivery application that takes food orders, calculates the bill,
+and delivers it to customers. We can have 1 separate class for each of the tasks to be performed,
+and then the main class can just invoke those classes to get these actions done one after the other.
