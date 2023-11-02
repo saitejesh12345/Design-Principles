@@ -1,0 +1,31 @@
+-> Lisco substitute principle liskov substitute principle says a child class should be able to
+replace its parent Class.
+
+-> a person who is a farmer and his son  will become farmer as well because he
+ will have some of his father's qualities.so he will be able to replace his father
+ whenever his father is not able to work right so the sun will have the
+ properties and behavior of his father so that he will be able to replace his
+ father itself.
+
+ ->whenever you are using inheritance in your application you should make sure that
+ your child class should be able to replace its parent class when we see
+ inheritance it means that child class has inherited all the properties from
+ its parent class so if it has inherited all the properties from his parent class
+ then it's a very simple logic that the child class should be able to replace
+ its parent  in class in some cases when you're not able to implement or utilize
+ any method which were available in parent class but you're not giving any implementation
+ in your child class then that would be breaking the list of substitute principle.
+
+ Example1
+
+ Here we are having two Parent classes
+ ->Birds class having methods Eat() and sleep()
+ ->Flying class having method fly()
+
+ so fistly we took Duck class which only does Eat(),sleep(),fly() so we are extending class in
+ Flying class which extends Birds so already they have Eat(),sleep()in child class of FlyingBirds having
+ fly().
+
+ SO now we are using them in Duck child class extends FlyingBirds parent class which have Eat(),sleep()
+ from Birds parent class and FLyingBirds inheriting and having fly() thats how
+  Liskov-Substitution-principle works

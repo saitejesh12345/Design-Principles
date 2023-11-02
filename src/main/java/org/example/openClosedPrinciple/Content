@@ -1,0 +1,43 @@
+->Open close principle says that when you are creating a class it should be
+open for extension and closed for modification.
+
+->what it means is as a developer  should not be editing the existing code which is working in
+production but if you want to add new functionality in your class you should
+be able to add new functionality so your class should be closed for modification
+but it should be open for extension.
+
+->let's take a simple example to understand this principle so in our
+mobile phone we have basic functionality that we can call to some other person we
+can send messages we can take photos and etc etc so these are the basic functionality
+which will be available in each of these mobile phone so all these
+functionality the mobile provided like Google or Apple they have closed these
+basic functionality for modification so those basic functionalities are closed
+for modification.
+
+->but in these mobile.phone we have apple store or Play Store in Google phones through which users can
+download extra features extra functionalities like you can go ahead
+and download some games which we want to play in your mobile phone so that means
+that Google and Apple has opened it for extension so that other developers can
+add more feature in their mobile phone but the basic functionality is closed for modify application.
+
+->let's say you have already written a class which is working
+ fine in production now you get some more feature requests from your product team
+ that we want to add some more feature in this class and what you have to do is
+ basically add some more functional to new class.Generally  what Junior developers do is they go and edit
+ code which was already working in production which brings a risk of introducing potential problem in the
+ code which is already working fine in the production so this principle says
+ that you shouldn't be touching the code which is already working which is
+ already trustworthy and proven in production right if something is working
+ properly in production you shouldn't be touching it if you have to add more
+ functionality into your class you should be adding it in such a way that it
+ should not affect your existing functionality. if you do so then you will
+ run your code into the risk of introducing new bugs so according to this principle
+ we should be able to add new feature to the class without affecting the old code this is because
+ whenever we edit old code we run the
+ risk of introducing potential problems so if at all possible we should avoid
+ touching the proven and trustworthy meal  production code .
+
+
+
+
+

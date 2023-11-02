@@ -1,0 +1,39 @@
+->Interface segregation principle say that many client specific interfaces are
+better than one general purpose interface.
+
+->so when you are creating interface instead of writing all your functionality into one
+ single interface and then let all the classes Implement all those functions T
+ even though those classes does not require that functionality means that we
+ should have multiple interfaces with specific functionality instead of one
+ single interface with a lot of functionality.
+
+->interface segregation says that instead of writing one single interface
+ with lot of functionalities and then ask all your classes which are implementing
+ that interface to implement all those functionality even though that class
+ does not require it that is not correct so what you should do is you should
+ create specific interfaces you should create many interfaces and then let your
+ class inherit the specific interface which is needed for that class.
+
+ ->let's say you're a vegetarian person and you go to a restaurant and they give you
+ a menu and this menu has veg options and non-veg options as well so it would
+ become very difficult for you to search for all the veg options in the non-veg
+ options so even though this serves the purpose but it would be very cluttered
+ menu so this vegetarian person would be much happier if he goes to a restaurant
+ and they give them a separate veg menu right so this separate menu would be
+ really good for this vegetarian person because they can now simply look into
+ the menu and decide which item they want right and in the same way the
+ non-vegetarian person will have a separate menu for non-veg items so they
+ can easily go through all their items and select the item which they want to
+ order so this one this cluttered menu is breaking our interface segregation
+ principle whereas this two separate menu is complying with our interface segregation
+ in the similar ways venue creating an interface for your client
+ class you have to make sure that instead of creating a cluttered interface you
+ should be creating a segregated interface like multiple interfaces so
+ that it would be much easier for your specific client class.
+
+ ->Benefit of interface segregation your class won't need to implement any
+ other functionality which is not needed for the class it only implements the
+ functionality from our interface which is needed for our class.
+
+
+

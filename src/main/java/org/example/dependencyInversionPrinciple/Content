@@ -1,0 +1,40 @@
+-> Dependency inversion principle this is very important principle in solid what
+it says is high level module should not depend on the low level module both should depend on abstraction.
+
+->when you're going to drive a car you know how to drive a car .from outside like you will just go and
+ start on the engine and you'll start driving you don't know how the engine works what is behind the engine all the
+ internal details you don't need to know all you need to know is how to drive the
+ car you don't need to know how the car engines work and how exactly everything
+ is going behind your fancy looking car so car external which you can see is an
+ abstraction and behind the scene which actually runs the car is the engine right so that is the actual
+ implementation but you don't need to worry about the actual implementation
+ all you need to depend upon is the abstraction which is the external of the car which you simply use to drive your
+ car.
+
+ -> if you're creating a website or a mobile application the UI of your web page or
+  UI of your mobile page should not depend on the low level module and low level module can be something like database
+  right so which database are you using from where you're getting the data all
+  these details should be hidden behind an abstraction it should not be written in
+  high level module itself so the high level module like the UI of your
+  application should not know anything about the low level module like the
+  networking call or the database all these details should be hidden behind an
+  abstraction layer now .
+
+  ->why do we need to use dependency inversion??
+  main goal of dependency inversion is decoupling the dependencies so as it says the high level module should
+   not depend on the low level module it means that your code should be Loosely coupled it shouldn't be tightly
+    couple so if your UI module which is the high level module knows everything about your low level modules
+    which can be your networking calls or the database layer then it is a tightly coupled code and it would be
+    very difficult to maintain and reuse such code and it would be even more harder to test such kind of code
+    so if we follow dependency inversion and hide all the low level module details behind an abstraction layer
+    that makes our code more flexible reusable maintainable and more testable the main reason
+
+   ->why your code should be loosely coupled instead of tightly couple ????
+
+because if there are any changes in low level module the high level module should not be affected
+ due to that so if you are changing anything in your network calls or anything in your database
+ let's say you were using mongodb and now you decided to change mongodb implementation to some other
+  type of database so this is a major change in your database layer but your high level module which
+  is UI layer which only needs data from your database layer would not need to know about which kind of
+  database is being used in your low level module right so with dependency inversion this decoupling is
+  possible which makes your code more flexible reusable maintainable and also more testable
